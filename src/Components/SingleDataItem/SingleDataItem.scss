@@ -1,0 +1,56 @@
+@import '../../variables.scss';
+
+.single-data {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  border-bottom: 2px solid $darker-gray;
+  border-right: 2px solid $darker-gray;
+  background-color: $lighter-gray;
+
+  & > div:not(:last-child) {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+  }
+
+  &__total {
+    font-size: 2rem;
+  }
+
+  &__stat {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    margin-left: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+
+  &__percentage {
+    margin-right: 1rem;
+  }
+
+  &__filter {
+    display: grid;
+    grid-template-columns: auto 50px;
+    grid-template-rows: auto;
+  }
+
+  &__stat-interval {
+    display: flex;
+    align-items: center;
+    background-color: $dark-gray;
+    padding: 0.5rem;
+  }
+
+  &__options {
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+  }
+}
