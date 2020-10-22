@@ -1,0 +1,9 @@
+@import "../../../variables";
+
+.import-icon,
+.export-icon {
+  padding: 0.5rem;
+  width: 40px;
+  height: 30px;
+  background-color: $darker-gray;
+}

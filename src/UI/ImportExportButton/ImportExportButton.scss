@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+.import-export-button {
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $dark-gray;
+  margin: 0.5rem 0;
+  
+  &__title {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: start;
+    padding-left: 0.3rem;
+  }
+
+
+}
