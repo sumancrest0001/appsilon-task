@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+.month-year-selector {
+  width: 7rem;
+}
+
+.date-picker {
+  width: 100%;
+  padding-left: 0.2rem;
+  border-radius: 0;
+  border: 1px solid $darker-gray;
+}

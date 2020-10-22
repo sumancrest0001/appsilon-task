@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+
+  & > div {
+    margin: 0.5rem 0;
+  }
+
+  &__interval {
+    display: flex;
+    align-items: center;
+  }
+}

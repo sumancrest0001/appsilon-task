@@ -1,14 +1,19 @@
 @import './../../variables.scss';
 
-.production {
+.summary {
   margin: 1.5rem 0;
   padding: 0.5rem;
   border-bottom: 2px solid $darker-gray;
   border-right: 2px solid $darker-gray;
   background-color: $lighter-gray;
 
-  &__image {
-    width: 98%;
-    margin: auto;
+  &__bar {
+    display: block;
+    height: 0.7rem;
+    background-color: $dark-gray;
+
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
   }
 }

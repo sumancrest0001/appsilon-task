@@ -1,14 +1,18 @@
-@import './../../variables.scss';
+@import '../../variables.scss';
 
-.production {
+.sales-revenue-section {
   margin: 1.5rem 0;
   padding: 0.5rem;
   border-bottom: 2px solid $darker-gray;
   border-right: 2px solid $darker-gray;
   background-color: $lighter-gray;
-
-  &__image {
-    width: 98%;
-    margin: auto;
+  
+  &__title {
+    margin-left: 1rem;
+  }
+  &__country {
+    width: 100%;
+    margin: 1rem auto;
   }
 }
+
