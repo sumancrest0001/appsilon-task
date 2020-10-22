@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/appsilon-task/static/css/main.72420166.chunk.css",
+    "main.js": "/appsilon-task/static/js/main.f8f08a0b.chunk.js",
+    "main.js.map": "/appsilon-task/static/js/main.f8f08a0b.chunk.js.map",
+    "runtime-main.js": "/appsilon-task/static/js/runtime-main.a70ade40.js",
+    "runtime-main.js.map": "/appsilon-task/static/js/runtime-main.a70ade40.js.map",
+    "static/css/2.e6ac38db.chunk.css": "/appsilon-task/static/css/2.e6ac38db.chunk.css",
+    "static/js/2.849221a4.chunk.js": "/appsilon-task/static/js/2.849221a4.chunk.js",
+    "static/js/2.849221a4.chunk.js.map": "/appsilon-task/static/js/2.849221a4.chunk.js.map",
+    "index.html": "/appsilon-task/index.html",
+    "precache-manifest.daaf16e8296c15702374396889134c79.js": "/appsilon-task/precache-manifest.daaf16e8296c15702374396889134c79.js",
+    "service-worker.js": "/appsilon-task/service-worker.js",
+    "static/css/2.e6ac38db.chunk.css.map": "/appsilon-task/static/css/2.e6ac38db.chunk.css.map",
+    "static/css/main.72420166.chunk.css.map": "/appsilon-task/static/css/main.72420166.chunk.css.map",
+    "static/js/2.849221a4.chunk.js.LICENSE.txt": "/appsilon-task/static/js/2.849221a4.chunk.js.LICENSE.txt",
+    "static/media/bar-chart.png": "/appsilon-task/static/media/bar-chart.7be6c5ae.png",
+    "static/media/countries.png": "/appsilon-task/static/media/countries.67de72cd.png",
+    "static/media/database.a21052b6.svg": "/appsilon-task/static/media/database.a21052b6.svg",
+    "static/media/down-arrow.47fb15ce.svg": "/appsilon-task/static/media/down-arrow.47fb15ce.svg",
+    "static/media/download.e8c4daf7.svg": "/appsilon-task/static/media/download.e8c4daf7.svg",
+    "static/media/more.8a645233.svg": "/appsilon-task/static/media/more.8a645233.svg",
+    "static/media/printer.32be12eb.svg": "/appsilon-task/static/media/printer.32be12eb.svg",
+    "static/media/refresh.bd0c2844.svg": "/appsilon-task/static/media/refresh.bd0c2844.svg",
+    "static/media/unchecked.4ac9ab46.svg": "/appsilon-task/static/media/unchecked.4ac9ab46.svg",
+    "static/media/user-profile.625b6e01.svg": "/appsilon-task/static/media/user-profile.625b6e01.svg",
+    "static/media/verticalDots.614e6e48.svg": "/appsilon-task/static/media/verticalDots.614e6e48.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a70ade40.js",
+    "static/css/2.e6ac38db.chunk.css",
+    "static/js/2.849221a4.chunk.js",
+    "static/css/main.72420166.chunk.css",
+    "static/js/main.f8f08a0b.chunk.js"
+  ]
+}
