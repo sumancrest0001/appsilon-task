@@ -12,3 +12,20 @@
     margin: auto;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .production {
+    grid-area: production;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .production__filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+}
+

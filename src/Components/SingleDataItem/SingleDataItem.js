@@ -1,12 +1,12 @@
 import React from 'react';
 import './SingleDataItem.scss';
 
-const singleDataItem = (props) => (
+const singleDataItem = ({ singleInfo, children }) => (
   <div className="single-data">
-    <div className="single-data__total">$ 500000</div>
+    <div className="single-data__total">{singleInfo.title === 'total profit' ? `$ ${singleInfo.total}` : singleInfo.total}</div>
     <div className="single-data__stat">
-      <div className="single-data__title">total profit</div>
-      <div className="single-data__percentage">+4.5%</div>
+      <div className="single-data__title">{singleInfo.title}</div>
+      <div style={{ color: `${singleInfo.percentage > 0 ? 'green' : 'red'}` }} className="single-data__percentage">{singleInfo.percentage > 0 ? `+${singleInfo.percentage}` : singleInfo.percentage}%</div>
     </div>
     <div className="single-data__filter">
       <div className="single-data__stat-interval">
@@ -15,7 +15,7 @@ const singleDataItem = (props) => (
           <option value="weekly">weekly stat</option>
         </select>
       </div>
-      {props.children}
+      {children}
     </div>
 
   </div>

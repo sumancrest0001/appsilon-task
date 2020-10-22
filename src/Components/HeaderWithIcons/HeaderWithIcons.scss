@@ -18,10 +18,10 @@
 }
 
 .icons {
-
   &__refresh,
   &__unchecked,
   &__dropdown {
+    fill: $darker-gray;
     padding: 2px;
     width: 20px;
     height: 20px;

@@ -1,6 +1,7 @@
 @import '../../variables.scss';
 
 .single-data {
+  width: 100%;
   text-align: start;
   margin: auto;
   padding: 0;
@@ -9,10 +10,7 @@
   border-bottom: 2px solid $darker-gray;
   border-right: 2px solid $darker-gray;
   background-color: $lighter-gray;
-
-  &:not(:last-child) {
-    margin-bottom: 1.5rem;
-  }
+  margin-bottom: 1.5rem;
 
   & > div:not(:last-child) {
     margin: 0.5rem 0 0.5rem 0.5rem;
@@ -58,3 +56,4 @@
     border: none;
   }
 }
+

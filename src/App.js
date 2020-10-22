@@ -2,9 +2,7 @@ import React from 'react';
 import './App.scss';
 import Header from './Components/Header/Header';
 import TopDataboard from './Components/TopDataboard/TopDataboard';
-import Production from './Components/Production/Production';
-import SalesRevenue from './Components/SalesRevenue/SalesRevenue';
-import Summary from './Components/Summary/Summary';
+import MainSection from './Components/MainSection/MainSection';
 import Filter from './Components/Filter/Filter';
 
 function App() {
@@ -12,9 +10,7 @@ function App() {
     <div className="App">
       <Header>Enterprise Shiny Dashboard</Header>
       <TopDataboard />
-      <Production />
-      <SalesRevenue />
-      <Summary />
+      <MainSection />
       <Filter />
     </div>
   );
