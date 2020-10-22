@@ -1,0 +1,31 @@
+@import './../../variables.scss';
+
+.production {
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 2px solid $darker-gray;
+  border-right: 2px solid $darker-gray;
+  background-color: $lighter-gray;
+
+  &__image {
+    width: 98%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .production {
+    grid-area: production;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .production__filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+}
+

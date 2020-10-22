@@ -1,0 +1,35 @@
+@import "../../variables";
+
+.header-with-icons {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: start;
+  color: $text-color;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.icons {
+  &__refresh,
+  &__unchecked,
+  &__dropdown {
+    fill: $darker-gray;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__refresh,
+  &__unchecked {
+    margin-right: 1rem;
+  }
+
+}
